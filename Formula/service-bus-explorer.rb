@@ -5,13 +5,13 @@ class ServiceBusExplorer < Formula
   
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/haga0531/service-bus-explorer/releases/download/v#{version}/ServiceBusExplorer-osx-arm64.tar.gz"
-    sha256 "f3f6931a7bc757e1976d3710458164f0410766fe64f225f267fdf52c9b56e2bf"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   elsif OS.mac?
     url "https://github.com/haga0531/service-bus-explorer/releases/download/v#{version}/ServiceBusExplorer-osx-x64.tar.gz"
-    sha256 "8cfa5828cda5aae84dee4a83652ea5d0c88ed2cffb06b4c68203bb6b09856fcd"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   elsif OS.linux?
     url "https://github.com/haga0531/service-bus-explorer/releases/download/v#{version}/ServiceBusExplorer-linux-x64.tar.gz"
-    sha256 "0d8fbe41b26a66dd00438489098db0348ed251d0f1553a00715c561d159b4df4"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   def install
